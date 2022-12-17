@@ -1,0 +1,3 @@
+// const url= `https://api.openweathermap.org/data/3.0/onecall?lat=18.5344&lon=73.883&exclude=current&appid=7ee22612f700096ed2872965087b8c86`
+// let fetchdata = fetch(url);
+// console.log(fetchdata);

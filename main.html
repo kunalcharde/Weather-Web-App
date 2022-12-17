@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-Deatil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="containermain">
+      <h1 class="titlemain">Weather Api</h1>
+      <div class="container1">
+        <div class="long">
+          <div>
+            <p>Lat: <span id="lat"></span></p>
+            <p>Long: <span id="long"></span></p>
+          </div>
+        </div>
+
+        <div id="map">
+          <p style="color: #fff">MAP</p>
+        </div>
+      </div>
+      <div class="conatainr2">
+        <h1 class="title2">Weather Data</h1>
+        <div class="innerconatiner">
+          <div class="output">
+            <div id="Display">
+              <p>Lat: <span id="latti"></span></p>
+              <p>Long: <span id="logit"></span></p>
+              <p>Time Zone: <span id="Time_Zone"></span></p>
+              <p>Wind speed : <span id="Wind_speed"></span></p>
+              <p>Pressure: <span id="pressure"></span></p>
+              <p>Humidity <span id="Humidity"></span></p>
+              <p>Wind Direction:<span id="Wind_Direction"></span></p>
+              <p>Temperature<span id="Temp"></span></p>
+              <p>Feels like <span id="Feels_like"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQ8MdF46cAfrufiQCdk1pDKCvTiojQ0m0&callback=initMap"
+    ></script>
+  </body>
+</html>
