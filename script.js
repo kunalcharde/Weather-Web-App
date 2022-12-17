@@ -8,7 +8,7 @@ function getweatherdata(){
     let url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=472926744a3c31568ee0ad6f9534db71`
     console.log(url);
     fetch(url).then(res=> res.json()).then(data=>{
-      console.log(data);
+      // console.log(data);
       showWethereData(data)
     })
   })
