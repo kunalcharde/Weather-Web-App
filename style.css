@@ -75,7 +75,7 @@ a{
 
 .conatainr2{
     width: 100% ;
-    height:100vh;
+    /* height:100vh; */
     display: flex;
     align-items:center;
     flex-direction: column;
@@ -94,9 +94,9 @@ a{
 .innerconatiner{
     box-sizing: border-box;
     width: 80%;
-    height: 85vh;
     border: 1px solid #000;
-    padding: 30px
+    padding: 30px;
+    margin-bottom:30px;
 }
 
 #Display p{

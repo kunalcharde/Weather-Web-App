@@ -1,8 +1,6 @@
 function getweatherdata(){
   navigator.geolocation.getCurrentPosition((success)=>{
     let {latitude,longitude} =success.coords;
-    // console.log(latitude)
-    // console.log(longitude)
     document.getElementById("lat").innerHTML= latitude
     document.getElementById("long").innerHTML= longitude
     latitude.innerHTML = latitude;
@@ -41,6 +39,4 @@ function initMap() {
 window.initMap = initMap;
 
 let button = document.getElementById("btn");
-button.addEventListener("click", ()=>{
-  getweatherdata();
-})
+button.onclick = getweatherdata()
