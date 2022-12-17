@@ -59,7 +59,7 @@ a{
 }
 .long p{
     display: inline;
-    padding: 0px 8vmin 0px 0px;
+    padding: 0px 10vmin 0px 0px;
     justify-content: space-between;
     width: 100%;
     font-size: 25px;
