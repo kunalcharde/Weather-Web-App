@@ -15,7 +15,7 @@
 .title{
     margin-top: 20vmin;
     color: #fff;
-    font-size: 15vmin;
+    font-size: 10vmin;
     font-family: 'Poppins', sans-serif;
     margin: 15vmin;
 }
@@ -64,7 +64,7 @@ a{
 }
 .long p{
     display: inline;
-    padding: 0px 100px 0px 0px;
+    padding: 0px 50px 0px 0px;
     justify-content: space-between;
     width: 100%;
     font-size: 25px;
